@@ -162,3 +162,158 @@ button {
   align-self: flex-end;
   margin-top: 3.2rem;
 }
+@media (max-width: 69rem) {
+  header {
+    padding: 2rem 8rem;
+  }
+  .hero-section {
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+  .hero-section h1,
+  .projects-section h1,
+  .contact-section h1 {
+    font-size: 4.8rem;
+  }
+  .hero-section img {
+    height: 50rem;
+    right: 8rem;
+  }
+  .features-section {
+    padding: 6rem 8rem;
+  }
+  .projects-section {
+    padding: 6rem 8rem;
+  }
+  .contact-section {
+    margin: 0 8rem;
+  }
+}
+@media (max-width: 57rem) {
+  .hero-section h1,
+  .projects-section h1,
+  .contact-section h1 {
+    font-size: 3.6rem;
+  }
+  .hero-section img {
+    height: 45rem;
+  }
+  .hero-section p {
+    width: 21rem;
+    line-height: 1.6;
+  }
+  .features-section {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 50rem) {
+  .hero-section img {
+    height: 40rem;
+  }
+  .hero-section {
+    margin-top: 5rem;
+  }
+  .hero-section h1,
+  .projects-section h1,
+  .contact-section h1 {
+    font-size: 3rem;
+  }
+
+  .features-section {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 44rem) {
+  header {
+    padding: 2rem 5rem;
+    font-size: 1.6rem;
+  }
+  .hero-section img {
+    height: 32rem;
+    right: 5rem;
+  }
+  .hero-section h1,
+  .projects-section h1,
+  .contact-section h1 {
+    font-size: 2.8rem;
+  }
+  .hero-section {
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  .features-section {
+    padding: 5rem 5rem;
+    font-size: 2rem;
+  }
+  .projects-section {
+    padding: 5rem;
+  }
+  .contact-section {
+    margin: 0 5rem;
+  }
+  .hero-section p,
+  .contact-section p {
+    margin-bottom: 3.2rem;
+  }
+}
+@media (max-width: 34rem) {
+  header {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .logo {
+    margin-right: 0;
+  }
+  .hero-section img {
+    position: inherit;
+    height: 40rem;
+    align-self: center;
+    margin-bottom: 3rem;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-bottom: 2.4rem;
+  }
+  .hero-section h1,
+  .projects-section h1,
+  .contact-section h1 {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  .hero-section p,
+  .contact-section p {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    width: auto;
+  }
+  .features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.2rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .projects-section {
+    padding: 2rem;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+  }
+  form {
+    width: 100%;
+  }
+}

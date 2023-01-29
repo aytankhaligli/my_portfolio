@@ -3,6 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <div className="hero-section">
+      <img src="../images/profile.jpg" />
       <h1>Nice to meet you!</h1>
       <h1>
         I'm <span>Aytan Khaligli.</span>
@@ -14,8 +15,6 @@ export default function Hero() {
       <a href="tel:775229026" className="contact">
         Contact me
       </a>
-
-      <img src="../public/profile.jpg" />
     </div>
   );
 }

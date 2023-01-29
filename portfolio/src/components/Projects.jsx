@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="projects">
         <div>
           <a href="https://restcountry-aytan.netlify.app" target="_blank">
-            <img src="../public/rest-countries.jpg" />
+            <img src="../images/rest-countries.jpg" />
           </a>
           <p>Rest Country</p>
           <a
@@ -23,8 +23,20 @@ export default function Projects() {
           </a>
         </div>
         <div>
+          <a href="https://ipaddresstracker-aytan.netlify.app" target="_blank">
+            <img src="../images/ipaddresstracker.jpg" />
+          </a>
+          <p>Ip Address Tracker</p>
+          <a
+            href="https://github.com/aytankhaligli/IP-adress-tracker.git"
+            target="_blank"
+          >
+            Code
+          </a>
+        </div>
+        <div>
           <a href="https://todo-app-aytan.netlify.app" target="_blank">
-            <img src="../public/todo.jpg" />
+            <img src="../images/todo.jpg" />
           </a>
           <p>Todo app</p>
           <a href="https://github.com/aytankhaligli/Todo-app" target="_blank">
@@ -33,7 +45,7 @@ export default function Projects() {
         </div>
         <div>
           <a href="https://calculator-app-aytan.netlify.app" target="_blank">
-            <img src="../public/calculator.jpg" />
+            <img src="../images/calculator.jpg" />
           </a>
           <p>Calculator app</p>
           <a
@@ -45,7 +57,7 @@ export default function Projects() {
         </div>
         <div>
           <a href="https://tips-calculator-app.netlify.app" target="_blank">
-            <img src="../public/tip-calculator.jpg" />
+            <img src="../images/tip-calculator.jpg" />
           </a>
           <p>Tips-calculator app</p>
           <a
@@ -60,11 +72,23 @@ export default function Projects() {
             href="https://advicegenerator-app-aytan.netlify.app"
             target="_blank"
           >
-            <img src="../public/advice.jpg" />
+            <img src="../images/advice.jpg" />
           </a>
           <p>Advice-generator app</p>
           <a
             href="https://github.com/aytankhaligli/Advice-generator"
+            target="_blank"
+          >
+            Code
+          </a>
+        </div>
+        <div>
+          <a href="https://multistepform-aytan.netlify.app" target="_blank">
+            <img src="../images/multistepform.jpg" />
+          </a>
+          <p>Multi Step Form</p>
+          <a
+            href="https://github.com/aytankhaligli/Multi-step-form.git"
             target="_blank"
           >
             Code
