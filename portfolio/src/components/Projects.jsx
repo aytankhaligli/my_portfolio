@@ -35,6 +35,23 @@ export default function Projects() {
           </a>
         </div>
         <div>
+          <a href="https://weatherapp-aytan.netlify.app/" target="_blank">
+            <div className="screen-box">
+              <div className="screen-box">
+                {" "}
+                <img src="../images/weather.png" />
+              </div>
+            </div>
+          </a>
+          <p>Weather App</p>
+          <a
+            href="https://github.com/aytankhaligli/Weather-app.git"
+            target="_blank"
+          >
+            Code
+          </a>
+        </div>
+        <div>
           <a href="https://todo-app-aytan.netlify.app" target="_blank">
             <img src="../images/todo.jpg" />
           </a>
@@ -89,6 +106,18 @@ export default function Projects() {
           <p>Multi Step Form</p>
           <a
             href="https://github.com/aytankhaligli/Multi-step-form.git"
+            target="_blank"
+          >
+            Code
+          </a>
+        </div>
+        <div>
+          <a href="https://quiz-app-aytan.netlify.app/" target="_blank">
+            <img src="../images/quiz.png" />
+          </a>
+          <p>Quiz App</p>
+          <a
+            href="https://github.com/aytankhaligli/Quiz-app.git"
             target="_blank"
           >
             Code

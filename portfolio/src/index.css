@@ -162,6 +162,13 @@ button {
   align-self: flex-end;
   margin-top: 3.2rem;
 }
+.screen-box {
+  display: flex;
+  height: 86%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 69rem) {
   header {
     padding: 2rem 8rem;
@@ -188,6 +195,12 @@ button {
   .contact-section {
     margin: 0 8rem;
   }
+  .image-bg {
+    height: 292.96px;
+  }
+  .screen-box {
+    height: 84%;
+  }
 }
 @media (max-width: 57rem) {
   .hero-section h1,
@@ -205,6 +218,9 @@ button {
   .features-section {
     font-size: 2.8rem;
   }
+  .screen-box {
+    height: 80%;
+  }
 }
 @media (max-width: 50rem) {
   .hero-section img {
@@ -221,6 +237,9 @@ button {
 
   .features-section {
     font-size: 2.4rem;
+  }
+  .screen-box {
+    height: 77%;
   }
 }
 @media (max-width: 44rem) {
@@ -256,6 +275,9 @@ button {
   .hero-section p,
   .contact-section p {
     margin-bottom: 3.2rem;
+  }
+  .screen-box {
+    height: 72%;
   }
 }
 @media (max-width: 34rem) {
@@ -315,5 +337,8 @@ button {
   }
   form {
     width: 100%;
+  }
+  .screen-box {
+    height: 332.2px;
   }
 }
